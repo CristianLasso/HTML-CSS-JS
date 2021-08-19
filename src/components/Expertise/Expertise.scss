@@ -1,0 +1,14 @@
+.expertise {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  margin-right: 5%;
+  &__blue {
+    color: blue;
+    justify-content: left;
+  }
+}

@@ -1,0 +1,29 @@
+.skills {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  margin-right: 5%;
+  &__blue {
+    color: blue;
+  }
+  &__separate {
+    justify-content: space-between;
+  }
+  &__white {
+    background-color: white;
+    border-color: white;
+    margin-bottom: 2%;
+  }
+  &__percentage {
+    opacity: 0;
+    pointer-events: none;
+  }
+  &__show {
+    pointer-events: auto;
+    opacity: 1;
+  }
+}
